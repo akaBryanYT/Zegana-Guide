@@ -1,0 +1,828 @@
+[
+  {
+    "name": "Prime Speaker Zegana",
+    "mana_cost": "{2}{G}{G}{U}{U}",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "type_line": "Legendary Creature \u2014 Merfolk Wizard",
+    "scryfall_uri": "https://scryfall.com/card/fdn/664/prime-speaker-zegana?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/d/2/d2f007b0-b578-44f8-be65-cd9e2ac56e09.jpg?1730491112",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Prime Speaker Zegana enters with X +1/+1 counters on it, where X is the greatest power among other creatures you control.\nWhen Prime Speaker Zegana enters, draw cards equal to its power."
+  },
+  {
+    "name": "Ambuscade",
+    "mana_cost": "{2}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/2x2/133/ambuscade?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/4/d/4df71162-7e8f-47c5-aff4-59d82d8c674d.jpg?1673147985",
+    "oracle_text": "Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to target creature an opponent controls."
+  },
+  {
+    "name": "Apothecary Stomper",
+    "mana_cost": "{4}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Elephant",
+    "scryfall_uri": "https://scryfall.com/card/fdn/99/apothecary-stomper?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/8/680b7b0c-0e1b-46ce-9917-9fc6e05aa148.jpg?1730550979",
+    "power": "4",
+    "toughness": "4",
+    "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen this creature enters, choose one \u2014\n\u2022 Put two +1/+1 counters on target creature you control.\n\u2022 You gain 4 life."
+  },
+  {
+    "name": "Arcane Epiphany",
+    "mana_cost": "{3}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/fdn/29/arcane-epiphany?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/0/6/06431793-5dfe-4cbf-990b-4bcc960d1f31.jpg?1730488696",
+    "oracle_text": "This spell costs {1} less to cast if you control a Wizard.\nDraw three cards."
+  },
+  {
+    "name": "Arcanis the Omnipotent",
+    "mana_cost": "{3}{U}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Legendary Creature \u2014 Wizard",
+    "scryfall_uri": "https://scryfall.com/card/fdn/585/arcanis-the-omnipotent?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/a/6/a6fee90a-7cb3-4fad-91a7-1b1edbde0133.jpg?1730490821",
+    "power": "3",
+    "toughness": "4",
+    "oracle_text": "{T}: Draw three cards.\n{2}{U}{U}: Return Arcanis to its owner's hand."
+  },
+  {
+    "name": "Archmage of Runes",
+    "mana_cost": "{3}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Giant Wizard",
+    "scryfall_uri": "https://scryfall.com/card/fdn/30/archmage-of-runes?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/3/334b5018-2da9-49f1-9d09-83d312ecfb02.jpg?1730488698",
+    "power": "3",
+    "toughness": "6",
+    "oracle_text": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever you cast an instant or sorcery spell, draw a card."
+  },
+  {
+    "name": "As Foretold",
+    "mana_cost": "{2}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Enchantment",
+    "scryfall_uri": "https://scryfall.com/card/who/214/as-foretold?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/d/6dfcd573-dc06-4b2a-9a9a-7e35267ac800.jpg?1696636894",
+    "oracle_text": "At the beginning of your upkeep, put a time counter on this enchantment.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on this enchantment."
+  },
+  {
+    "name": "Bounce Off",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/dft/39/bounce-off?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/b/7b3c8dda-2405-4879-8dd1-e790a833c42d.jpg?1738356198",
+    "oracle_text": "Return target creature or Vehicle to its owner's hand."
+  },
+  {
+    "name": "Brineborn Cutthroat",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Merfolk Pirate",
+    "scryfall_uri": "https://scryfall.com/card/fdn/152/brineborn-cutthroat?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/a/c/acf7aafb-931f-49e5-8691-eab8cb34b05e.jpg?1730489171",
+    "power": "2",
+    "toughness": "1",
+    "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nWhenever you cast a spell during an opponent's turn, put a +1/+1 counter on this creature."
+  },
+  {
+    "name": "Bushwhack",
+    "mana_cost": "{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/bro/174/bushwhack?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/1/712a0640-d9c8-46fc-b38b-bf20a40fa902.jpg?1674421510",
+    "oracle_text": "Choose one \u2014\n\u2022 Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n\u2022 Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)"
+  },
+  {
+    "name": "Chart a Course",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/fdn/586/chart-a-course?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/5/7599d459-fe71-48f4-8c65-0f519bb63a68.jpg?1730490827",
+    "oracle_text": "Draw two cards. Then discard a card unless you attacked this turn."
+  },
+  {
+    "name": "Circuitous Route",
+    "mana_cost": "{3}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/znc/62/circuitous-route?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/1/6130036c-2cb7-4216-9bfe-0b751d653529.jpg?1699386148",
+    "oracle_text": "Search your library for up to two basic land cards and/or Gate cards, put them onto the battlefield tapped, then shuffle."
+  },
+  {
+    "name": "Clinquant Skymage",
+    "mana_cost": "{3}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Bird Wizard",
+    "scryfall_uri": "https://scryfall.com/card/fdn/33/clinquant-skymage?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/6/36012810-0e83-4640-8ba7-7262229f1b84.jpg?1730488711",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Flying\nWhenever you draw a card, put a +1/+1 counter on this creature."
+  },
+  {
+    "name": "Cloudkin Seer",
+    "mana_cost": "{2}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Elemental Wizard",
+    "scryfall_uri": "https://scryfall.com/card/clu/82/cloudkin-seer?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/2/5/25e97ad6-8b49-4fb6-9c07-e8d91bbaed5a.jpg?1706239790",
+    "power": "2",
+    "toughness": "1",
+    "oracle_text": "Flying\nWhen this creature enters, draw a card."
+  },
+  {
+    "name": "Cyclone Summoner",
+    "mana_cost": "{5}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Giant Wizard",
+    "scryfall_uri": "https://scryfall.com/card/khm/52/cyclone-summoner?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/b/2/b2d40071-cadf-48de-a8ed-d55adbfab632.jpg?1631046953",
+    "power": "7",
+    "toughness": "7",
+    "oracle_text": "When this creature enters, if you cast it from your hand, return all permanents to their owners' hands except for Giants, Wizards, and lands."
+  },
+  {
+    "name": "Darksteel Colossus",
+    "mana_cost": "{11}",
+    "colors": [],
+    "type_line": "Artifact Creature \u2014 Golem",
+    "scryfall_uri": "https://scryfall.com/card/fdn/671/darksteel-colossus?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/0/70197723-c61b-4600-b61d-41380c8f3067.jpg?1730491139",
+    "power": "11",
+    "toughness": "11",
+    "oracle_text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nIndestructible (Damage and effects that say \"destroy\" don't destroy this creature.)\nIf Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead."
+  },
+  {
+    "name": "Dive Down",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/xln/53/dive-down?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.jpg?1562562509",
+    "oracle_text": "Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)"
+  },
+  {
+    "name": "Druid of the Cowl",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Elf Druid",
+    "scryfall_uri": "https://scryfall.com/card/fdn/554/druid-of-the-cowl?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/d/b/db2d0ee9-865c-4fc9-8cb6-540c597e1bf4.jpg?1730490707",
+    "power": "1",
+    "toughness": "3",
+    "oracle_text": "{T}: Add {G}."
+  },
+  {
+    "name": "Emrakul, the Aeons Torn",
+    "mana_cost": "{15}",
+    "colors": [],
+    "type_line": "Legendary Creature \u2014 Eldrazi",
+    "scryfall_uri": "https://scryfall.com/card/2x2/1/emrakul-the-aeons-torn?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1673146896",
+    "power": "15",
+    "toughness": "15",
+    "oracle_text": "This spell can't be countered.\nWhen you cast this spell, take an extra turn after this one.\nFlying, protection from spells that are one or more colors, annihilator 6\nWhen Emrakul is put into a graveyard from anywhere, its owner shuffles their graveyard into their library."
+  },
+  {
+    "name": "Essence Scatter",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/fdn/153/essence-scatter?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/d/d/dd05c850-f91e-4ffb-b4cc-8418d49dad90.jpg?1730489174",
+    "oracle_text": "Counter target creature spell."
+  },
+  {
+    "name": "Eternal Witness",
+    "mana_cost": "{1}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Human Shaman",
+    "scryfall_uri": "https://scryfall.com/card/m3c/227/eternal-witness?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/f/1/f13553a6-d565-4c18-a60d-20021bc813e7.jpg?1717190508",
+    "power": "2",
+    "toughness": "1",
+    "oracle_text": "When this creature enters, you may return target card from your graveyard to your hand."
+  },
+  {
+    "name": "Expropriate",
+    "mana_cost": "{7}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/cn2/30/expropriate?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/9/c/9c8a2a5a-cb9b-4582-a453-085da78584f9.jpg?1576381719",
+    "oracle_text": "Council's dilemma \u2014 Starting with you, each player votes for time or money. For each time vote, take an extra turn after this one. For each money vote, choose a permanent owned by the voter and gain control of it. Exile Expropriate."
+  },
+  {
+    "name": "Finale of Revelation",
+    "mana_cost": "{X}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/war/51/finale-of-revelation?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/6/6630c34a-1a97-4e31-9d2c-1150b0aa903e.jpg?1557576213",
+    "oracle_text": "Draw X cards. If X is 10 or more, instead shuffle your graveyard into your library, draw X cards, untap up to five lands, and you have no maximum hand size for the rest of the game.\nExile Finale of Revelation."
+  },
+  {
+    "name": "Flood the Engine",
+    "mana_cost": "{2}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Enchantment \u2014 Aura",
+    "scryfall_uri": "https://scryfall.com/card/dft/42/flood-the-engine?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/5/7/57402f7c-5d4c-4f1e-8bce-a2328a297111.jpg?1738356202",
+    "oracle_text": "Enchant creature or Vehicle\nWhen this Aura enters, tap enchanted permanent.\nEnchanted permanent loses all abilities and doesn't untap during its controller's untap step."
+  },
+  {
+    "name": "Fractal Harness",
+    "mana_cost": "{X}{2}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Artifact \u2014 Equipment",
+    "scryfall_uri": "https://scryfall.com/card/c21/61/fractal-harness?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/b/7/b7fdad91-fa92-42b6-ad44-f4a3819212f2.jpg?1625192264",
+    "oracle_text": "When this Equipment enters, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it and attach this Equipment to it.\nWhenever equipped creature attacks, double the number of +1/+1 counters on it.\nEquip {2}"
+  },
+  {
+    "name": "Gadwick, the Wizened",
+    "mana_cost": "{X}{U}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Legendary Creature \u2014 Human Wizard",
+    "scryfall_uri": "https://scryfall.com/card/eld/48/gadwick-the-wizened?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/2/62ddce0d-f22a-4fcd-9a4a-d71938750ba1.jpg?1572489894",
+    "power": "3",
+    "toughness": "3",
+    "oracle_text": "When Gadwick enters, draw X cards.\nWhenever you cast a blue spell, tap target nonland permanent an opponent controls."
+  },
+  {
+    "name": "Garruk's Uprising",
+    "mana_cost": "{2}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Enchantment",
+    "scryfall_uri": "https://scryfall.com/card/fdn/220/garruks-uprising?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/4/8/4805c303-e73b-443b-a09f-49d2c2c88bb5.jpg?1730489415",
+    "oracle_text": "When this enchantment enters, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever a creature you control with power 4 or greater enters, draw a card."
+  },
+  {
+    "name": "Geistwave",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/mid/56/geistwave?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/f/0/f0e3d1ac-bec2-4bba-a6cf-a823996dde2d.jpg?1634348915",
+    "oracle_text": "Return target nonland permanent to its owner's hand. If you controlled that permanent, draw a card."
+  },
+  {
+    "name": "Gnarlid Colony",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Beast",
+    "scryfall_uri": "https://scryfall.com/card/fdn/224/gnarlid-colony?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/4/7/47565d10-96bf-4fb0-820f-f20a44a76b6f.jpg?1730506553",
+    "power": "2",
+    "toughness": "2",
+    "oracle_text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nIf this creature was kicked, it enters with two +1/+1 counters on it.\nEach creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)"
+  },
+  {
+    "name": "Goreclaw, Terror of Qal Sisma",
+    "mana_cost": "{3}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Legendary Creature \u2014 Bear",
+    "scryfall_uri": "https://scryfall.com/card/m19/186/goreclaw-terror-of-qal-sisma?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/6/36d4574a-3266-4497-b145-fb25820d8a7f.jpg?1562301680",
+    "power": "4",
+    "toughness": "3",
+    "oracle_text": "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."
+  },
+  {
+    "name": "Greenbelt Guardian",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Elf Ranger",
+    "scryfall_uri": "https://scryfall.com/card/dft/164/greenbelt-guardian?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/2/f/2f6b0000-5fd3-483b-bac5-f9b888d8755b.jpg?1738356508",
+    "power": "2",
+    "toughness": "2",
+    "oracle_text": "{G}: Target creature gains trample until end of turn.\nExhaust \u2014 {3}{G}: Put three +1/+1 counters on this creature. (Activate each exhaust ability only once.)"
+  },
+  {
+    "name": "Hazard of the Dunes",
+    "mana_cost": "{3}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Wurm",
+    "scryfall_uri": "https://scryfall.com/card/dft/165/hazard-of-the-dunes?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/c/3/c3fbee7a-7e73-43cf-bc39-ccb1c63bf837.jpg?1738356508",
+    "power": "4",
+    "toughness": "4",
+    "oracle_text": "Trample, reach\nExhaust \u2014 {6}{G}: Put three +1/+1 counters on this creature. (Activate each exhaust ability only once.)"
+  },
+  {
+    "name": "Heroes' Bane",
+    "mana_cost": "{3}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Hydra",
+    "scryfall_uri": "https://scryfall.com/card/ima/166/heroes-bane?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/f/6f060ff2-d2cb-4203-85b8-ad531029575a.jpg?1562850088",
+    "power": "0",
+    "toughness": "0",
+    "oracle_text": "This creature enters with four +1/+1 counters on it.\n{2}{G}{G}: Put X +1/+1 counters on this creature, where X is its power."
+  },
+  {
+    "name": "Into the Roil",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/znr/62/into-the-roil?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/8/9/899540b0-c17a-4a73-912c-9b8925203de1.jpg?1604194172",
+    "oracle_text": "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card."
+  },
+  {
+    "name": "Keen Buccaneer",
+    "mana_cost": "{2}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Octopus Pirate",
+    "scryfall_uri": "https://scryfall.com/card/dft/48/keen-buccaneer?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/0/e/0ed90a63-5aca-470a-8e1e-518d8aeb6d91.jpg?1738359340",
+    "power": "2",
+    "toughness": "3",
+    "oracle_text": "Vigilance\nExhaust \u2014 {1}{U}: Draw a card, then discard a card. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)"
+  },
+  {
+    "name": "Llanowar Elves",
+    "mana_cost": "{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Elf Druid",
+    "scryfall_uri": "https://scryfall.com/card/fdn/227/llanowar-elves?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1731652605",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "{T}: Add {G}."
+  },
+  {
+    "name": "Mana Leak",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/9ed/86/mana-leak?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/0/60e6486c-644f-4b32-b4e9-3ca29bbdb400.jpg?1562736057",
+    "oracle_text": "Counter target spell unless its controller pays {3}."
+  },
+  {
+    "name": "Mindspring Merfolk",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Creature \u2014 Merfolk Wizard",
+    "scryfall_uri": "https://scryfall.com/card/dft/51/mindspring-merfolk?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/b/6/b6250b8b-1943-445f-ada9-30b41eb6d29b.jpg?1738356227",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Exhaust \u2014 {X}{U}{U}, {T}: Draw X cards. Put a +1/+1 counter on each Merfolk creature you control. (Activate each exhaust ability only once.)"
+  },
+  {
+    "name": "Negate",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/m20/69/negate?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/3/33b83158-78b4-425e-8379-be3ef038295c.jpg?1592516456",
+    "oracle_text": "Counter target noncreature spell."
+  },
+  {
+    "name": "Omniscience",
+    "mana_cost": "{7}{U}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Enchantment",
+    "scryfall_uri": "https://scryfall.com/card/fdn/161/omniscience?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1731652624",
+    "oracle_text": "You may cast spells from your hand without paying their mana costs."
+  },
+  {
+    "name": "Opt",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/fdn/512/opt?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/5/8/58d26b54-0093-4e90-a2b1-b57c64340f9c.jpg?1730490543",
+    "oracle_text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card."
+  },
+  {
+    "name": "Ordeal of Nylea",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Enchantment \u2014 Aura",
+    "scryfall_uri": "https://scryfall.com/card/fdn/641/ordeal-of-nylea?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/1/a/1a70424d-86a7-44a3-acda-4463d7ac503b.jpg?1730491029",
+    "oracle_text": "Enchant creature\nWhenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice this Aura.\nWhen you sacrifice this Aura, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+  },
+  {
+    "name": "Overrun",
+    "mana_cost": "{2}{G}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/ddd/24/overrun?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/f/9/f9a92c49-bdf1-466d-9a6c-65633efb1050.jpg?1562090234",
+    "oracle_text": "Creatures you control get +3/+3 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)"
+  },
+  {
+    "name": "Pelakka Wurm",
+    "mana_cost": "{4}{G}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Wurm",
+    "scryfall_uri": "https://scryfall.com/card/cns/172/pelakka-wurm?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/9/a/9a2cb305-3f38-4192-b125-8ccc455d4b29.jpg?1562866375",
+    "power": "7",
+    "toughness": "7",
+    "oracle_text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nWhen this creature enters, you gain 7 life.\nWhen this creature dies, draw a card."
+  },
+  {
+    "name": "Predator Ooze",
+    "mana_cost": "{G}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Ooze",
+    "scryfall_uri": "https://scryfall.com/card/fdn/642/predator-ooze?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/3/333b3cca-ebbf-4ceb-a6a5-3d49cb2e143a.jpg?1730491033",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Indestructible (Damage and effects that say \"destroy\" don't destroy this creature.)\nWhenever this creature attacks, put a +1/+1 counter on it.\nWhenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature."
+  },
+  {
+    "name": "Preordain",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/ncc/230/preordain?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/d/1/d10b9be3-d4ff-4e3c-b0d5-5ab2c4e6d684.jpg?1691417733",
+    "oracle_text": "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)"
+  },
+  {
+    "name": "Primeval Bounty",
+    "mana_cost": "{5}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Enchantment",
+    "scryfall_uri": "https://scryfall.com/card/clb/830/primeval-bounty?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/0/3/03b9e943-9650-434c-a540-35ca7c96365b.jpg?1674142326",
+    "oracle_text": "Whenever you cast a creature spell, create a 3/3 green Beast creature token.\nWhenever you cast a noncreature spell, put three +1/+1 counters on target creature you control.\nLandfall \u2014 Whenever a land you control enters, you gain 3 life."
+  },
+  {
+    "name": "Quakestrider Ceratops",
+    "mana_cost": "{3}{G}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Dinosaur",
+    "scryfall_uri": "https://scryfall.com/card/fdn/110/quakestrider-ceratops?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/0/6/067f72c2-ead6-4879-bc9d-696c9f87c0b2.jpg?1730489008",
+    "power": "12",
+    "toughness": "8",
+    "oracle_text": ""
+  },
+  {
+    "name": "Rite of Replication",
+    "mana_cost": "{2}{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/fdn/711/rite-of-replication?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/f/e/fe98958d-30ee-4a47-aacc-064e02d109b3.jpg?1730572717",
+    "oracle_text": "Kicker {5} (You may pay an additional {5} as you cast this spell.)\nCreate a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead."
+  },
+  {
+    "name": "Rogue's Passage",
+    "mana_cost": "",
+    "colors": [],
+    "type_line": "Land",
+    "scryfall_uri": "https://scryfall.com/card/moc/421/rogues-passage?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/2/5/25d11ee4-9cb8-4688-8004-d83e00861028.jpg?1682210610",
+    "oracle_text": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn."
+  },
+  {
+    "name": "Serpentine Ambush",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/vow/77/serpentine-ambush?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/b/8/b8214b1c-29f8-4986-89ac-2d7fc929edf3.jpg?1643588544",
+    "oracle_text": "Until end of turn, target creature becomes a blue Serpent with base power and toughness 5/5."
+  },
+  {
+    "name": "Silken Strength",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Enchantment \u2014 Aura",
+    "scryfall_uri": "https://scryfall.com/card/dft/180/silken-strength?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/c/e/ce0e1ded-9b00-4d7b-884c-70a429783b1f.jpg?1738356545",
+    "oracle_text": "Flash\nEnchant creature or Vehicle\nWhen this Aura enters, untap enchanted permanent.\nEnchanted permanent gets +1/+2 and has reach."
+  },
+  {
+    "name": "Skyserpent Seeker",
+    "mana_cost": "{G}{U}",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "type_line": "Creature \u2014 Snake",
+    "scryfall_uri": "https://scryfall.com/card/dft/224/skyserpent-seeker?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/8/d/8dbd9fc0-c0df-4119-a0d3-2e1790998c21.jpg?1738356752",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Flying, deathtouch\nExhaust \u2014 {4}: Reveal cards from the top of your library until you reveal two land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)"
+  },
+  {
+    "name": "Snakeskin Veil",
+    "mana_cost": "{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/fdn/233/snakeskin-veil?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/6/c/6cc4c21d-9bdc-4490-9203-17f51db0ddd1.jpg?1730489471",
+    "oracle_text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)"
+  },
+  {
+    "name": "Sol Ring",
+    "mana_cost": "{1}",
+    "colors": [],
+    "type_line": "Artifact",
+    "scryfall_uri": "https://scryfall.com/card/pip/239/sol-ring?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/e/6/e675f7e2-5c9f-4912-8fdd-daaeda284a3d.jpg?1708743162",
+    "oracle_text": "{T}: Add {C}{C}."
+  },
+  {
+    "name": "Stampeding Scurryfoot",
+    "mana_cost": "{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Mouse",
+    "scryfall_uri": "https://scryfall.com/card/dft/181/stampeding-scurryfoot?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/f/7fc713d7-4a7e-4f1f-b461-e89bb1457d7d.jpg?1738356546",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Exhaust \u2014 {3}{G}: Put a +1/+1 counter on this creature. Create a 3/3 green Elephant creature token. (Activate each exhaust ability only once.)"
+  },
+  {
+    "name": "Stock Up",
+    "mana_cost": "{2}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Sorcery",
+    "scryfall_uri": "https://scryfall.com/card/dft/67/stock-up?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/0/a/0a786855-6eb4-42c0-a528-4842db46809d.jpg?1738356263",
+    "oracle_text": "Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order."
+  },
+  {
+    "name": "Tatyova, Benthic Druid",
+    "mana_cost": "{3}{G}{U}",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "type_line": "Legendary Creature \u2014 Merfolk Druid",
+    "scryfall_uri": "https://scryfall.com/card/dmr/203/tatyova-benthic-druid?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/a/8/a8953672-b1ae-4f0a-8107-e28322fc16b7.jpg?1675200784",
+    "power": "3",
+    "toughness": "3",
+    "oracle_text": "Landfall \u2014 Whenever a land you control enters, you gain 1 life and draw a card."
+  },
+  {
+    "name": "Temple of Mystery",
+    "mana_cost": "",
+    "colors": [],
+    "type_line": "Land",
+    "scryfall_uri": "https://scryfall.com/card/fdn/702/temple-of-mystery?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/b/d/bd581f1d-d8ba-47f9-b10b-b7b6d46239ce.jpg?1730491259",
+    "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {G} or {U}."
+  },
+  {
+    "name": "Think Twice",
+    "mana_cost": "{1}{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/c19/99/think-twice?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/b/7b93726a-9ee7-4010-9db1-1e1ac5955398.jpg?1568004093",
+    "oracle_text": "Draw a card.\nFlashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
+  },
+  {
+    "name": "Thornwood Falls",
+    "mana_cost": "",
+    "colors": [],
+    "type_line": "Land",
+    "scryfall_uri": "https://scryfall.com/card/cmr/498/thornwood-falls?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/e/9/e918f01a-3c24-440c-9e5b-c8cf47d81a82.jpg?1608918142",
+    "oracle_text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {G} or {U}."
+  },
+  {
+    "name": "Treetop Snarespinner",
+    "mana_cost": "{3}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Spider",
+    "scryfall_uri": "https://scryfall.com/card/fdn/114/treetop-snarespinner?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/8/8/88e68fa3-159d-49a6-8ac6-afc9bd6f1718.jpg?1730489023",
+    "power": "1",
+    "toughness": "4",
+    "oracle_text": "Reach (This creature can block creatures with flying.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\n{2}{G}: Put a +1/+1 counter on target creature you control. Activate only as a sorcery."
+  },
+  {
+    "name": "Unsummon",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Instant",
+    "scryfall_uri": "https://scryfall.com/card/m20/78/unsummon?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/7/a/7a960516-3864-4a7a-8117-d25dec0dd665.jpg?1592516526",
+    "oracle_text": "Return target creature to its owner's hand."
+  },
+  {
+    "name": "Venom Connoisseur",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Human Druid",
+    "scryfall_uri": "https://scryfall.com/card/snc/161/venom-connoisseur?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/0/4/04897d8c-ee05-45eb-80f7-76487dbcc449.jpg?1664412553",
+    "power": "2",
+    "toughness": "2",
+    "oracle_text": "Alliance \u2014 Whenever another creature you control enters, this creature gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn."
+  },
+  {
+    "name": "Vizier of the Menagerie",
+    "mana_cost": "{3}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Snake Cleric",
+    "scryfall_uri": "https://scryfall.com/card/akh/192/vizier-of-the-menagerie?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/c/a/ca204351-7a7e-4e4b-8c2b-f90fa0f9d724.jpg?1543676010",
+    "power": "3",
+    "toughness": "4",
+    "oracle_text": "You may look at the top card of your library any time.\nYou may cast creature spells from the top of your library.\nYou can spend mana of any type to cast creature spells."
+  },
+  {
+    "name": "Wildborn Preserver",
+    "mana_cost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Elf Archer",
+    "scryfall_uri": "https://scryfall.com/card/fdn/650/wildborn-preserver?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/8/a/8a249d1c-a5fe-48e5-bd9b-e50d8eea391b.jpg?1730491061",
+    "power": "2",
+    "toughness": "2",
+    "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nReach (This creature can block creatures with flying.)\nWhenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on this creature."
+  },
+  {
+    "name": "Wildwood Scourge",
+    "mana_cost": "{X}{G}",
+    "colors": [
+      "G"
+    ],
+    "type_line": "Creature \u2014 Hydra",
+    "scryfall_uri": "https://scryfall.com/card/fdn/236/wildwood-scourge?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/6/36359fb6-fb8c-4382-8555-e348422f116c.jpg?1730489480",
+    "power": "0",
+    "toughness": "0",
+    "oracle_text": "This creature enters with X +1/+1 counters on it.\nWhenever one or more +1/+1 counters are put on another non-Hydra creature you control, put a +1/+1 counter on this creature."
+  },
+  {
+    "name": "Willowrush Verge",
+    "mana_cost": "",
+    "colors": [],
+    "type_line": "Land",
+    "scryfall_uri": "https://scryfall.com/card/dft/375/willowrush-verge?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/3/8/38218d0f-4b70-45eb-a753-cdb44f94271c.jpg?1738357513",
+    "oracle_text": "{T}: Add {U}.\n{T}: Add {G}. Activate only if you control a Forest or an Island."
+  },
+  {
+    "name": "Winged Coatl",
+    "mana_cost": "{1}{G}{U}",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "type_line": "Creature \u2014 Snake",
+    "scryfall_uri": "https://scryfall.com/card/2x2/295/winged-coatl?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/4/0/400862ac-f229-4f73-949c-779f6bfa868b.jpg?1673149285",
+    "power": "1",
+    "toughness": "1",
+    "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)"
+  },
+  {
+    "name": "Witness Protection",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "type_line": "Enchantment \u2014 Aura",
+    "scryfall_uri": "https://scryfall.com/card/snc/66/witness-protection?utm_source=api",
+    "normal_image_uri": "https://cards.scryfall.io/normal/front/a/2/a2be6f2c-8ad0-402d-a7ca-9fe817e83b72.jpg?1664410681",
+    "oracle_text": "Enchant creature\nEnchanted creature loses all abilities and is a green and white Citizen creature with base power and toughness 1/1 named Legitimate Businessperson. (It loses all other colors, card types, creature types, and names.)"
+  }
+]
