@@ -17,7 +17,7 @@ import {
   CounterIcon,
   CreatureIcon
 } from '../Icons';
-import CardTooltip from '../components/Cards/CardTooltip';
+import TableCardTooltip from '../components/Cards/TableCardTooltip';
 
 // Import deck data
 import deckData from '../../src/simplified_final_deck.json';
@@ -139,12 +139,6 @@ const CardItem = styled.li`
   &:last-child {
     margin-bottom: 0;
     border-bottom: none;
-  }
-`;
-
-const TableCardTooltip = styled(CardTooltip)`
-  & > div > div {
-    z-index: 1500 !important;
   }
 `;
 
