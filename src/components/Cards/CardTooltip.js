@@ -35,7 +35,7 @@ const TooltipContent = styled.div`
   left: ${props => props.position === 'right' ? 'calc(100% + 10px)' : props.position === 'left' ? 'auto' : '50%'};
   right: ${props => props.position === 'left' ? 'calc(100% + 10px)' : 'auto'};
   transform: ${props => (props.position === 'left' || props.position === 'right') ? 'translateY(-50%)' : 'translateX(-50%)'};
-  z-index: 10;
+  z-index: 1000;
   min-width: 200px;
   max-width: 300px;
   background-color: ${theme.colors.background.card};
