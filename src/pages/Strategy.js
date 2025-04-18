@@ -142,7 +142,7 @@ const CardItem = styled.li`
   }
 `;
 
-const TableTableCardTooltip = styled(CardTooltip)`
+const TableCardTooltip = styled(CardTooltip)`
   & > div > div {
     z-index: 1500 !important;
   }
