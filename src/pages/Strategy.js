@@ -17,7 +17,7 @@ import {
   CounterIcon,
   CreatureIcon
 } from '../Icons';
-import CardTooltip from '../components/Cards/CardTooltip';
+import TableCardTooltip from '../components/Cards/TableCardTooltip';
 
 // Import deck data
 import deckData from '../../src/simplified_final_deck.json';
@@ -48,11 +48,15 @@ const StyledTable = styled.table`
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: ${theme.borders.radius};
   overflow: hidden;
+  position: relative; /* Add this */
+  z-index: 1; /* Add this */
   
   th, td {
     padding: ${theme.spacing(1.5)};
     text-align: left;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative; /* Add this */
+    z-index: 1; /* Add this */
   }
   
   th {
@@ -138,6 +142,12 @@ const CardItem = styled.li`
   }
 `;
 
+const TableTableCardTooltip = styled(CardTooltip)`
+  & > div > div {
+    z-index: 1500 !important;
+  }
+`;
+
 // Helper function to find cards by name
 const findCardByName = (name) => deckData.find(card => card.name === name);
 
@@ -196,40 +206,40 @@ const Strategy = ({ activeVariant }) => {
                 <td>Mana Ramp/Acceleration</td>
                 <td>~10</td>
                 <td>
-                  <CardTooltip card={findCardByName("Sol Ring")} nameOnly>Sol Ring</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Llanowar Elves")} nameOnly>Llanowar Elves</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Druid of the Cowl")} nameOnly>Druid of the Cowl</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Circuitous Route")} nameOnly>Circuitous Route</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Goreclaw, Terror of Qal Sisma")} nameOnly>Goreclaw</CardTooltip>
+                  <TableCardTooltip card={findCardByName("Sol Ring")} nameOnly>Sol Ring</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Llanowar Elves")} nameOnly>Llanowar Elves</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Druid of the Cowl")} nameOnly>Druid of the Cowl</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Circuitous Route")} nameOnly>Circuitous Route</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Goreclaw, Terror of Qal Sisma")} nameOnly>Goreclaw</TableCardTooltip>
                 </td>
               </tr>
               <tr>
                 <td>Card Draw/Advantage</td>
                 <td>~12</td>
                 <td>
-                  <CardTooltip card={zeganaCard} nameOnly>Prime Speaker Zegana</CardTooltip> (Commander), 
-                  <CardTooltip card={findCardByName("Arcanis the Omnipotent")} nameOnly>Arcanis the Omnipotent</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Garruk's Uprising")} nameOnly>Garruk's Uprising</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Tatyova, Benthic Druid")} nameOnly>Tatyova</CardTooltip>
+                  <TableCardTooltip card={zeganaCard} nameOnly>Prime Speaker Zegana</TableCardTooltip> (Commander), 
+                  <TableCardTooltip card={findCardByName("Arcanis the Omnipotent")} nameOnly>Arcanis the Omnipotent</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Garruk's Uprising")} nameOnly>Garruk's Uprising</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Tatyova, Benthic Druid")} nameOnly>Tatyova</TableCardTooltip>
                 </td>
               </tr>
               <tr>
                 <td>Counterspells</td>
                 <td>3-4</td>
                 <td>
-                  <CardTooltip card={findCardByName("Mana Leak")} nameOnly>Mana Leak</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Negate")} nameOnly>Negate</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Essence Scatter")} nameOnly>Essence Scatter</CardTooltip>
+                  <TableCardTooltip card={findCardByName("Mana Leak")} nameOnly>Mana Leak</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Negate")} nameOnly>Negate</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Essence Scatter")} nameOnly>Essence Scatter</TableCardTooltip>
                 </td>
               </tr>
               <tr>
                 <td>Creature/Perm. Removal</td>
                 <td>~8</td>
                 <td>
-                  <CardTooltip card={findCardByName("Ambuscade")} nameOnly>Ambuscade</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Bushwhack")} nameOnly>Bushwhack</CardTooltip> (fight effects), 
-                  <CardTooltip card={findCardByName("Bounce Off")} nameOnly>Bounce Off</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Cyclone Summoner")} nameOnly>Cyclone Summoner</CardTooltip>
+                  <TableCardTooltip card={findCardByName("Ambuscade")} nameOnly>Ambuscade</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Bushwhack")} nameOnly>Bushwhack</TableCardTooltip> (fight effects), 
+                  <TableCardTooltip card={findCardByName("Bounce Off")} nameOnly>Bounce Off</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Cyclone Summoner")} nameOnly>Cyclone Summoner</TableCardTooltip>
                 </td>
               </tr>
               <tr>
@@ -237,11 +247,11 @@ const Strategy = ({ activeVariant }) => {
                 <td>~6</td>
                 <td>
                   {activeVariant === 'emrakul' ? 
-                    <CardTooltip card={emrakulCard} nameOnly>Emrakul, the Aeons Torn</CardTooltip> : 
-                    <CardTooltip card={darksteelCard} nameOnly>Darksteel Colossus</CardTooltip>}, 
-                  <CardTooltip card={findCardByName("Expropriate")} nameOnly>Expropriate</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Omniscience")} nameOnly>Omniscience</CardTooltip>, 
-                  <CardTooltip card={findCardByName("Overrun")} nameOnly>Overrun</CardTooltip>
+                    <TableCardTooltip card={emrakulCard} nameOnly>Emrakul, the Aeons Torn</TableCardTooltip> : 
+                    <TableCardTooltip card={darksteelCard} nameOnly>Darksteel Colossus</TableCardTooltip>}, 
+                  <TableCardTooltip card={findCardByName("Expropriate")} nameOnly>Expropriate</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Omniscience")} nameOnly>Omniscience</TableCardTooltip>, 
+                  <TableCardTooltip card={findCardByName("Overrun")} nameOnly>Overrun</TableCardTooltip>
                 </td>
               </tr>
               <tr>
@@ -393,8 +403,8 @@ const Strategy = ({ activeVariant }) => {
               
               <h4>Extra Turns & Lock-Outs</h4>
               <p>
-                <CardTooltip card={emrakulCard} nameOnly>Emrakul, the Aeons Torn</CardTooltip> and 
-                <CardTooltip card={findCardByName("Expropriate")} nameOnly>Expropriate</CardTooltip> give 
+                <TableCardTooltip card={emrakulCard} nameOnly>Emrakul, the Aeons Torn</TableCardTooltip> and 
+                <TableCardTooltip card={findCardByName("Expropriate")} nameOnly>Expropriate</TableCardTooltip> give 
                 powerful tempo swings that translate into wins. Emrakul provides an extra turn on cast and 
                 cannot be countered, while Expropriate can give you extra turns and steal permanents.
               </p>
@@ -454,28 +464,28 @@ const Strategy = ({ activeVariant }) => {
               
               <h5>One-drop Mana Dorks</h5>
               <p>
-                <CardTooltip card={findCardByName("Llanowar Elves")} nameOnly>Llanowar Elves</CardTooltip> is a classic opener – 
+                <TableCardTooltip card={findCardByName("Llanowar Elves")} nameOnly>Llanowar Elves</TableCardTooltip> is a classic opener – 
                 Turn 1 Llanowar accelerates you to 3 mana on Turn 2. Similarly, 
-                <CardTooltip card={findCardByName("Sol Ring")} nameOnly>Sol Ring</CardTooltip> gives you 4 mana on Turn 2.
+                <TableCardTooltip card={findCardByName("Sol Ring")} nameOnly>Sol Ring</TableCardTooltip> gives you 4 mana on Turn 2.
               </p>
               
               <h5>Two-drop Ramp Creatures</h5>
               <p>
-                <CardTooltip card={findCardByName("Druid of the Cowl")} nameOnly>Druid of the Cowl</CardTooltip> provides 
+                <TableCardTooltip card={findCardByName("Druid of the Cowl")} nameOnly>Druid of the Cowl</TableCardTooltip> provides 
                 additional early acceleration to maintain ramp density.
               </p>
               
               <h5>Ramp Sorceries</h5>
               <p>
-                <CardTooltip card={findCardByName("Circuitous Route")} nameOnly>Circuitous Route</CardTooltip> is a 4-mana 
+                <TableCardTooltip card={findCardByName("Circuitous Route")} nameOnly>Circuitous Route</TableCardTooltip> is a 4-mana 
                 sorcery that fetches two lands, putting you two mana ahead in development.
-                <CardTooltip card={findCardByName("Ordeal of Nylea")} nameOnly>Ordeal of Nylea</CardTooltip> is an 
+                <TableCardTooltip card={findCardByName("Ordeal of Nylea")} nameOnly>Ordeal of Nylea</TableCardTooltip> is an 
                 interesting ramp piece that fetches two lands after the enchanted creature attacks twice.
               </p>
               
               <h5>Cost Reduction</h5>
               <p>
-                <CardTooltip card={findCardByName("Goreclaw, Terror of Qal Sisma")} nameOnly>Goreclaw, Terror of Qal Sisma</CardTooltip> makes 
+                <TableCardTooltip card={findCardByName("Goreclaw, Terror of Qal Sisma")} nameOnly>Goreclaw, Terror of Qal Sisma</TableCardTooltip> makes 
                 creature spells with power 4 or greater cost {2} less. This effectively speeds up your ability to deploy big threats by a full turn.
               </p>
               
@@ -513,39 +523,39 @@ const Strategy = ({ activeVariant }) => {
               
               <h5>ETB/Activated Draw Creatures</h5>
               <p>
-                <CardTooltip card={findCardByName("Arcanis the Omnipotent")} nameOnly>Arcanis the Omnipotent</CardTooltip> can 
+                <TableCardTooltip card={findCardByName("Arcanis the Omnipotent")} nameOnly>Arcanis the Omnipotent</TableCardTooltip> can 
                 tap to draw 3 cards and even bounce himself to dodge removal.
-                <CardTooltip card={findCardByName("Gadwick, the Wizened")} nameOnly>Gadwick, the Wizened</CardTooltip> draws 
+                <TableCardTooltip card={findCardByName("Gadwick, the Wizened")} nameOnly>Gadwick, the Wizened</TableCardTooltip> draws 
                 cards equal to X when he enters and taps down opponents' permanents.
               </p>
               
               <h5>One-shot Draw/Cantrips</h5>
               <p>
-                Cards like <CardTooltip card={findCardByName("Chart a Course")} nameOnly>Chart a Course</CardTooltip>, 
-                <CardTooltip card={findCardByName("Arcane Epiphany")} nameOnly>Arcane Epiphany</CardTooltip>, 
-                <CardTooltip card={findCardByName("Think Twice")} nameOnly>Think Twice</CardTooltip>, 
-                <CardTooltip card={findCardByName("Opt")} nameOnly>Opt</CardTooltip>, and 
-                <CardTooltip card={findCardByName("Preordain")} nameOnly>Preordain</CardTooltip> keep your hand full 
+                Cards like <TableCardTooltip card={findCardByName("Chart a Course")} nameOnly>Chart a Course</TableCardTooltip>, 
+                <TableCardTooltip card={findCardByName("Arcane Epiphany")} nameOnly>Arcane Epiphany</TableCardTooltip>, 
+                <TableCardTooltip card={findCardByName("Think Twice")} nameOnly>Think Twice</TableCardTooltip>, 
+                <TableCardTooltip card={findCardByName("Opt")} nameOnly>Opt</TableCardTooltip>, and 
+                <TableCardTooltip card={findCardByName("Preordain")} nameOnly>Preordain</TableCardTooltip> keep your hand full 
                 and help dig for answers or threats.
               </p>
               
               <h5>Enchantment-based Draw</h5>
               <p>
-                <CardTooltip card={findCardByName("Garruk's Uprising")} nameOnly>Garruk's Uprising</CardTooltip> is extremely 
+                <TableCardTooltip card={findCardByName("Garruk's Uprising")} nameOnly>Garruk's Uprising</TableCardTooltip> is extremely 
                 powerful, drawing a card when it enters (if you control a 4+ power creature) and whenever a 4+ power creature enters.
-                <CardTooltip card={findCardByName("Tatyova, Benthic Druid")} nameOnly>Tatyova, Benthic Druid</CardTooltip> gives 
+                <TableCardTooltip card={findCardByName("Tatyova, Benthic Druid")} nameOnly>Tatyova, Benthic Druid</TableCardTooltip> gives 
                 you life and card draw for every land that enters.
               </p>
               
               <h4>Key Draw Synergies:</h4>
               <p>
-                <CardTooltip card={findCardByName("Archmage of Runes")} nameOnly>Archmage of Runes</CardTooltip> makes instants 
+                <TableCardTooltip card={findCardByName("Archmage of Runes")} nameOnly>Archmage of Runes</TableCardTooltip> makes instants 
                 and sorceries cost {1} less and draws a card whenever you cast one. This turns your cantrips into double card draw 
                 and makes your interaction spells replace themselves.
               </p>
               
               <p>
-                <CardTooltip card={findCardByName("Finale of Revelation")} nameOnly>Finale of Revelation</CardTooltip> with X≥10 
+                <TableCardTooltip card={findCardByName("Finale of Revelation")} nameOnly>Finale of Revelation</TableCardTooltip> with X≥10 
                 is a massive finisher: draw 10, shuffle your graveyard in, untap 5 lands, and get no maximum hand size.
               </p>
               
@@ -576,15 +586,15 @@ const Strategy = ({ activeVariant }) => {
               <h4>Countersuite:</h4>
               <CardList>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Mana Leak")} nameOnly>Mana Leak</CardTooltip> - Versatile early counter 
+                  <TableCardTooltip card={findCardByName("Mana Leak")} nameOnly>Mana Leak</TableCardTooltip> - Versatile early counter 
                   that becomes weaker late game. Use it to stop early board wipes or fast combos.
                 </CardItem>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Negate")} nameOnly>Negate</CardTooltip> - Your primary answer to non-creature 
+                  <TableCardTooltip card={findCardByName("Negate")} nameOnly>Negate</TableCardTooltip> - Your primary answer to non-creature 
                   threats like opposing counterspells, board wipes, or combo pieces.
                 </CardItem>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Essence Scatter")} nameOnly>Essence Scatter</CardTooltip> - Use this to stop 
+                  <TableCardTooltip card={findCardByName("Essence Scatter")} nameOnly>Essence Scatter</TableCardTooltip> - Use this to stop 
                   creatures that you would struggle to deal with once resolved.
                 </CardItem>
               </CardList>
@@ -592,16 +602,16 @@ const Strategy = ({ activeVariant }) => {
               <h4>Bounce Package:</h4>
               <CardList>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Unsummon")} nameOnly>Unsummon</CardTooltip> / 
-                  <CardTooltip card={findCardByName("Bounce Off")} nameOnly>Bounce Off</CardTooltip> - Cheap instant-speed 
+                  <TableCardTooltip card={findCardByName("Unsummon")} nameOnly>Unsummon</TableCardTooltip> / 
+                  <TableCardTooltip card={findCardByName("Bounce Off")} nameOnly>Bounce Off</TableCardTooltip> - Cheap instant-speed 
                   creature bounce to remove blockers or reset problematic creatures.
                 </CardItem>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Geistwave")} nameOnly>Geistwave</CardTooltip> - Bounce that draws a card 
+                  <TableCardTooltip card={findCardByName("Geistwave")} nameOnly>Geistwave</TableCardTooltip> - Bounce that draws a card 
                   if targeting your own permanent. Great for saving your creatures from removal.
                 </CardItem>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Into the Roil")} nameOnly>Into the Roil</CardTooltip> - Flexible bounce that 
+                  <TableCardTooltip card={findCardByName("Into the Roil")} nameOnly>Into the Roil</TableCardTooltip> - Flexible bounce that 
                   can hit any nonland permanent and draws a card when kicked.
                 </CardItem>
               </CardList>
@@ -609,7 +619,7 @@ const Strategy = ({ activeVariant }) => {
               <h4>Board Reset:</h4>
               <CardList>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Cyclone Summoner")} nameOnly>Cyclone Summoner</CardTooltip> - When cast from hand, 
+                  <TableCardTooltip card={findCardByName("Cyclone Summoner")} nameOnly>Cyclone Summoner</TableCardTooltip> - When cast from hand, 
                   bounces all non-Giant, non-Wizard, non-land permanents. This acts as a one-sided board wipe, especially against token decks.
                 </CardItem>
               </CardList>
@@ -617,11 +627,11 @@ const Strategy = ({ activeVariant }) => {
               <h4>Protection Spells:</h4>
               <CardList>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Dive Down")} nameOnly>Dive Down</CardTooltip> - Gives +0/+3 and hexproof until end of turn. 
+                  <TableCardTooltip card={findCardByName("Dive Down")} nameOnly>Dive Down</TableCardTooltip> - Gives +0/+3 and hexproof until end of turn. 
                   Use to protect key creatures from removal or win combat.
                 </CardItem>
                 <CardItem>
-                  <CardTooltip card={findCardByName("Snakeskin Veil")} nameOnly>Snakeskin Veil</CardTooltip> - Gives a +1/+1 counter and hexproof. 
+                  <TableCardTooltip card={findCardByName("Snakeskin Veil")} nameOnly>Snakeskin Veil</TableCardTooltip> - Gives a +1/+1 counter and hexproof. 
                   The counter stays permanently, making this protection spell add value.
                 </CardItem>
               </CardList>
