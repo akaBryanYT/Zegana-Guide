@@ -197,9 +197,13 @@ const MulliganGuide = ({ activeVariant }) => {
   // Filter hands based on active tab and variant
   const filteredHands = hands.filter(hand => {
     if (activeTab === 'all') {
-      return hand.variants.includes(activeVariant);
+	  return hand.variants.includes(activeVariant);
     }
-    return hand.quality === activeTab && hand.variants.includes(activeVariant);
+    if (activeTab === 'good' || activeTab === 'medium' || activeTab === 'bad') {
+	  return hand.quality === activeTab && hand.variants.includes(activeVariant);
+    }
+    // For emrakul/darksteel specific tabs
+    return hand.category === activeTab && hand.variants.includes(activeVariant);
   });
 
   return (
