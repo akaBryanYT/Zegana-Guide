@@ -17,7 +17,7 @@ import {
   CounterIcon,
   CreatureIcon
 } from '../Icons';
-import TableCardTooltip from '../components/Cards/TableCardTooltip';
+import CardTooltip from '../components/Cards/CardTooltip';
 
 // Import deck data
 import deckData from '../../src/simplified_final_deck.json';
