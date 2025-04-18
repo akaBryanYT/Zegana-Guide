@@ -199,7 +199,7 @@ const MulliganGuide = ({ activeVariant }) => {
     if (activeTab === 'all') {
       return hand.variants.includes(activeVariant);
     }
-    return hand.category === activeTab && hand.variants.includes(activeVariant);
+    return hand.quality === activeTab && hand.variants.includes(activeVariant);
   });
 
   return (
